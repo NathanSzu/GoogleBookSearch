@@ -1,13 +1,8 @@
-import React from 'react'
+import React from "react";
+import "./style.css";
 
-export default function Jumbotron() {
-    return (
-        <div>
-            <div class="jumbotron">
-                <h1 class="display-3">Google Book Search</h1>
-                <hr class="my-2"/>
-                <p>Find and save books to your reading list.</p>
-            </div>
-        </div>
-    )
+function Jumbotron({ children }) {
+  return <div className="jumbotron mt-4">{children}</div>;
 }
+
+export default Jumbotron;
