@@ -17,3 +17,9 @@
 <a href='#Contribution'>Contribution</a>
 
 <a href='#Questions'>Questions</a>
+
+## <a id='Installation' style='color:white;'>Installation</a>
+  Download and run npm install from node.
+
+## <a id='Usage' style='color:white;'>Usage</a>
+  Enter search terms in the bar and click search. Book results will be populated below and can be reviewed and saved to a booklist.
