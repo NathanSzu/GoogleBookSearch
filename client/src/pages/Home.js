@@ -63,10 +63,13 @@ class Home extends Component {
         <Row>
           <Col size="md-12">
             <Jumbotron>
-                <h1 className="text-center color">
+              <div className="wrapper">
+                <h1 className="text-center color to-top">
                   <strong>(React) Google Books Search</strong>
                 </h1>
-                <h2 className="text-center color">Search for and Save Books of Interest.</h2>
+                <h2 className="text-center color to-top">Search for and Save Books of Interest.</h2>
+                <div className="backer"></div>
+              </div>
             </Jumbotron>
           </Col>
           <Col size="md-12">
