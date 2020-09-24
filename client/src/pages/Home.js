@@ -7,6 +7,7 @@ import Footer from "../components/Footer";
 import API from "../utils/API";
 import { Col, Row, Container } from "../components/Grid";
 import { List } from "../components/List";
+import "./app.css"
 
 class Home extends Component {
   state = {
@@ -62,10 +63,10 @@ class Home extends Component {
         <Row>
           <Col size="md-12">
             <Jumbotron>
-                <h1 className="text-center">
+                <h1 className="text-center color">
                   <strong>(React) Google Books Search</strong>
                 </h1>
-                <h2 className="text-center">Search for and Save Books of Interest.</h2>
+                <h2 className="text-center color">Search for and Save Books of Interest.</h2>
             </Jumbotron>
           </Col>
           <Col size="md-12">
