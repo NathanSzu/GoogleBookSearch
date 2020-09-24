@@ -62,10 +62,12 @@ class Home extends Component {
         <Row>
           <Col size="md-12">
             <Jumbotron>
-              <h1 className="text-center">
-                <strong>(React) Google Books Search</strong>
-              </h1>
-              <h2 className="text-center">Search for and Save Books of Interest.</h2>
+              <div className="home-cover">
+                <h1 className="text-center">
+                  <strong>(React) Google Books Search</strong>
+                </h1>
+                <h2 className="text-center">Search for and Save Books of Interest.</h2>
+              </div>
             </Jumbotron>
           </Col>
           <Col size="md-12">
@@ -104,8 +106,8 @@ class Home extends Component {
                   ))}
                 </List>
               ) : (
-                <h2 className="text-center">{this.state.message}</h2>
-              )}
+                  <h2 className="text-center">{this.state.message}</h2>
+                )}
             </Card>
           </Col>
         </Row>
